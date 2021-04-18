@@ -1,3 +1,3 @@
 # docker-images
 
-Debian with curl and jd to use it in github actions
+Debian with ansible for deploy project in github actions

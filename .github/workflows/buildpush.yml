@@ -2,7 +2,7 @@ name: ci
 
 on:
   push:
-    branches: debian
+    branches: debian-ansible
 
 jobs:
   path-context:
@@ -31,4 +31,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64,linux/386
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/debian:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/debian-ansible:latest
